@@ -1,0 +1,14 @@
+E:\SourceCode\Android\Phonewrod\Phonewrod\bin\Release\Phonewrod.dll
+E:\SourceCode\Android\Phonewrod\Phonewrod\bin\Release\Phonewrod.pdb
+E:\SourceCode\Android\Phonewrod\Phonewrod\bin\Release\Phonewrod.Phonewrod.apk
+E:\SourceCode\Android\Phonewrod\Phonewrod\bin\Release\Phonewrod.Phonewrod-Signed.apk
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\Phonewrod.dll
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\Phonewrod.pdb
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\android\bin\Phonewrod.Phonewrod.apk
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\res\layout\main.xml
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\res\values\strings.xml
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\res\drawable\icon.png
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\R.cs.flag
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\uploadflags.txt
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\Phonewrod.dll.mdb
+E:\SourceCode\Android\Phonewrod\Phonewrod\bin\Release\Phonewrod.dll.mdb

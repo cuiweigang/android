@@ -1,0 +1,7 @@
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\android\assets\Phonewrod.dll
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\android\assets\Java.Interop.dll
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\android\assets\Mono.Android.dll
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\android\assets\mscorlib.dll
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\android\assets\System.Core.dll
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\android\assets\System.dll
+E:\SourceCode\Android\Phonewrod\Phonewrod\obj\Release\android\assets\System.Runtime.Serialization.dll

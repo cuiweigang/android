@@ -1,0 +1,8 @@
+Phonewrod.CallHistoryActivity, Phonewrod;md5e43e174327df65cde1063f206ad97e15.CallHistoryActivity
+Phonewrod.CallHistoryActivity, Phonewrod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e43e174327df65cde1063f206ad97e15.CallHistoryActivity
+Phonewrod.CallHistoryActivity;md5e43e174327df65cde1063f206ad97e15.CallHistoryActivity
+phonewrod.CallHistoryActivity;md5e43e174327df65cde1063f206ad97e15.CallHistoryActivity
+Phonewrod.MainActivity, Phonewrod;md5e43e174327df65cde1063f206ad97e15.MainActivity
+Phonewrod.MainActivity, Phonewrod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e43e174327df65cde1063f206ad97e15.MainActivity
+Phonewrod.MainActivity;md5e43e174327df65cde1063f206ad97e15.MainActivity
+phonewrod.MainActivity;md5e43e174327df65cde1063f206ad97e15.MainActivity
