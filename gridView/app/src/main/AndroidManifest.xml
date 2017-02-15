@@ -21,8 +21,15 @@
             android:name=".SingleViewActivity"
             android:label="@string/page_singleView_title" />
         <activity android:name=".GridViewActivity" />
-        <activity android:label="LinearLayoutActivity布局" android:name=".LinearLayoutActivity" />
-        <activity android:label="RelativeLayoutActivity布局" android:name=".RelativeLayoutActivity"></activity>
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:label="LinearLayoutActivity布局" />
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:label="RelativeLayoutActivity布局" />
+        <activity android:name=".TableLayoutActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ListView2Activity"></activity>
     </application>
 
 </manifest>

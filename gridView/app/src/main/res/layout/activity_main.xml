@@ -10,26 +10,45 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.cuiweigang.gridview.MainActivity">
 
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
 
-    <Button
-        android:id="@+id/imageViewButton"
-        android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:text="图片预览" />
+    <!--<Button-->
+    <!--android:id="@+id/imageViewButton"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:text="图片预览" />-->
 
-    <Button
-        android:id="@+id/linearLayoutButton"
-        android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageViewButton"
-        android:text="Linear Layout" />
+    <!--<Button-->
+    <!--android:id="@+id/linearLayoutButton"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/imageViewButton"-->
+    <!--android:text="Linear Layout" />-->
 
-    <Button
-        android:id="@+id/relativeLayoutButton"
-        android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/linearLayoutButton"
-        android:text="relative Layout" />
+    <!--<Button-->
+    <!--android:id="@+id/relativeLayoutButton"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/linearLayoutButton"-->
+    <!--android:text="relative Layout" />-->
+    <!--<Button-->
+    <!--android:id="@+id/tableLayoutButton"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/relativeLayoutButton"-->
+    <!--android:text="Table Layout" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/listViewtButton"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/tableLayoutButton"-->
+    <!--android:text="List View" />-->
 </RelativeLayout>

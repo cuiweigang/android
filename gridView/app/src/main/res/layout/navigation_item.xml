@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+
+    <TextView
+        android:id="@id/name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="0dp"
+
+        android:text="Test"
+        android:textStyle="normal|bold"
+        tools:textColor="@android:color/holo_red_light" />
+
+    <ImageView
+
+        android:layout_width="36dp"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentTop="true"
+
+        android:adjustViewBounds="false"
+        app:srcCompat="@drawable/icon_1205481" />
+
+</RelativeLayout>
