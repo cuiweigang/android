@@ -32,7 +32,8 @@
         <activity android:name=".ListView2Activity" />
         <activity android:name=".DrawingActivity" />
         <activity android:name=".CaClothes" />
-        <activity android:name=".Draw2Activity"></activity>
+        <activity android:name=".Draw2Activity" />
+        <activity android:name=".LoginDemoActivity"></activity>
     </application>
 
 </manifest>

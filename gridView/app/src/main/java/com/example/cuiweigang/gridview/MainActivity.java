@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
             navigationList.put("ListView", ListViewActivity.class);
             navigationList.put("ListView2", ListView2Activity.class);
             navigationList.put("绘图", Draw2Activity.class);
+            navigationList.put("用户登陆", LoginDemoActivity.class);
         }
 
         List<Map<String, Object>> list = new ArrayList<>();
