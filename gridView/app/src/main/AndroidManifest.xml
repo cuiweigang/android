@@ -29,7 +29,10 @@
             android:label="RelativeLayoutActivity布局" />
         <activity android:name=".TableLayoutActivity" />
         <activity android:name=".ListViewActivity" />
-        <activity android:name=".ListView2Activity"></activity>
+        <activity android:name=".ListView2Activity" />
+        <activity android:name=".DrawingActivity" />
+        <activity android:name=".CaClothes" />
+        <activity android:name=".Draw2Activity"></activity>
     </application>
 
 </manifest>

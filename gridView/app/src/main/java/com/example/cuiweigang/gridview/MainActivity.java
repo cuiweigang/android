@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
             navigationList.put("TableLayout", TableLayoutActivity.class);
             navigationList.put("ListView", ListViewActivity.class);
             navigationList.put("ListView2", ListView2Activity.class);
+            navigationList.put("绘图", Draw2Activity.class);
         }
 
         List<Map<String, Object>> list = new ArrayList<>();
