@@ -33,7 +33,8 @@
         <activity android:name=".DrawingActivity" />
         <activity android:name=".CaClothes" />
         <activity android:name=".Draw2Activity" />
-        <activity android:name=".LoginDemoActivity"></activity>
+        <activity android:name=".LoginDemoActivity" />
+        <activity android:name=".SqlLiteDemoActivity"></activity>
     </application>
 
 </manifest>

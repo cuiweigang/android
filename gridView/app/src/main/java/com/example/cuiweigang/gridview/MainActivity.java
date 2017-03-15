@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -102,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
             navigationList.put("ListView2", ListView2Activity.class);
             navigationList.put("绘图", Draw2Activity.class);
             navigationList.put("用户登陆", LoginDemoActivity.class);
+            navigationList.put("SQLite示例", SqlLiteDemoActivity.class);
         }
 
         List<Map<String, Object>> list = new ArrayList<>();
