@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.layout.com.layoutexample.RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_height="42sp"
+        android:layout_marginTop="11sp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="12.5dp"
+            android:text="用户名:"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/EditViewBaseStyle"
+            android:hint="请输入手机号"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="42sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/row0"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_passord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="12sp"
+
+            android:text="验证码:"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/password"
+
+            style="@style/EditViewBaseStyle"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入验证码"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/sendSmsCodeButton"
+            style="@style/SendSmsCodeButton"
+            android:text="发送验证码"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="42sp"
+        android:layout_below="@+id/row1"
+        android:layout_marginTop="11sp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/setPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="12.5dp"
+            android:text="设置密码:"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/setPasswordEditText"
+            style="@style/EditViewBaseStyle"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="42sp"
+        android:layout_below="@+id/row2"
+        android:layout_marginTop="1sp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/confirmPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="12.5dp"
+            android:text="确认密码:"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/confirmPasswordEditText"
+            style="@style/EditViewBaseStyle"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <Button
+        style="@style/SubmitButton"
+        android:layout_below="@+id/row3"
+        android:text="提交" />
+</RelativeLayout>

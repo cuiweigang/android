@@ -20,7 +20,7 @@
             android:id="@+id/text_username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|center_vertical"
+
             android:layout_marginLeft="12.5dp"
             android:text="用户名:"
             android:textColor="#333333"
@@ -28,13 +28,10 @@
 
         <EditText
             android:id="@+id/username"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@null"
+            style="@style/EditViewBaseStyle"
             android:hint="请输入手机号"
-            android:inputType="text"
-            android:paddingLeft="7sp"
-            android:textColor="#333333"
+            android:inputType="number"
+
 
             android:textSize="13sp" />
     </LinearLayout>
@@ -62,28 +59,16 @@
 
         <EditText
             android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@null"
+            style="@style/EditViewBaseStyle"
             android:hint="请输入密码"
-            android:inputType="textPassword"
-            android:paddingLeft="7sp"
-            android:textColor="#333333"
-            android:textSize="13sp" />
+            android:inputType="textPassword" />
     </LinearLayout>
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
+        style="@style/SubmitButton"
         android:layout_below="@+id/row1"
-        android:layout_marginLeft="11.5dp"
-        android:layout_marginRight="11.5dp"
-        android:layout_marginTop="17dp"
-        android:background="@drawable/shape"
-        android:text="登录"
-        android:textColor="#ffffff"
-        android:textSize="15sp" />
+        android:text="登录" />
 
     <LinearLayout
         android:id="@+id/row2"
@@ -93,7 +78,7 @@
         android:layout_marginTop="11sp">
 
         <TextView
-            android:id="@+id/zhmmButton"
+            android:id="@+id/changePasswordButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12sp"
@@ -103,7 +88,7 @@
             android:textSize="13sp" />
 
         <TextView
-            android:id="@+id/kszcButton"
+            android:id="@+id/RegisterButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -169,8 +154,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="微信"
             android:layout_marginTop="2dp"
+            android:text="微信"
             android:textColor="#333333"
             android:textSize="12dp" />
     </LinearLayout>
