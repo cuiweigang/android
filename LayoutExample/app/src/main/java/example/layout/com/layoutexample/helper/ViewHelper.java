@@ -48,4 +48,15 @@ public class ViewHelper {
 
         goToView(v, activity, bundle);
     }
+
+    /**
+     * 跳转视图
+     *
+     * @param v 当前View
+     * @param activity 目标Activity类
+     */
+    public static void goToView(View v, Class<?> activity) {
+        Bundle bundle = new Bundle();
+        goToView(v, activity, bundle);
+    }
 }
