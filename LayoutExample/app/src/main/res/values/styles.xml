@@ -36,5 +36,24 @@
         <item name="android:textColor">#ffffff</item>
     </style>
 
+    <style name="Split_line_vertical">
+        <item name="android:layout_width">1px</item>
+        <item name="android:background">#e0e0e0</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Split_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#e0e0e0</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <style name="main_icon_ImageView">
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+    </style>
 
 </resources>
