@@ -11,12 +11,12 @@
     <LinearLayout
         android:id="@+id/row0"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
+        android:layout_height="92dp"
         android:background="#ffffff">
 
         <ImageView
-            android:layout_width="42.5dp"
-            android:layout_height="42.5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="15dp"
             android:src="@drawable/header" />
@@ -54,7 +54,8 @@
                     android:layout_marginLeft="10dp"
                     android:text="100"
                     android:textColor="#ff626c"
-                    android:textSize="11sp" />
+                    android:textSize="11sp"
+                    android:textStyle="normal|bold" />
 
             </LinearLayout>
         </LinearLayout>
@@ -85,8 +86,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="56dp"
+                android:layout_width="60dp"
+                android:layout_height="68dp"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:src="@drawable/store_icon" />
         </LinearLayout>
@@ -100,8 +101,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="56dp"
+                android:layout_width="60dp"
+                android:layout_height="68dp"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:src="@drawable/store_update_icon" />
         </LinearLayout>
@@ -115,171 +116,24 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="56dp"
+                android:layout_width="60dp"
+                android:layout_height="68dp"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:src="@drawable/store_share_icon" />
         </LinearLayout>
     </LinearLayout>
     <!--九宫格 start-->
-    <!--行一-->
-    <LinearLayout
-        android:id="@+id/row2"
+
+    <GridView
+        android:id="@+id/jgg_GridView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/row1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="11dp"
-        android:layout_weight="1"
-        android:background="#ffffff"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                style="@style/main_icon_ImageView"
-                app:srcCompat="@drawable/main_icon_1" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-
-        <TextView style="@style/Split_line_vertical" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                style="@style/main_icon_ImageView"
-                app:srcCompat="@drawable/main_icon_2" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-
-        <TextView style="@style/Split_line_vertical" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                style="@style/main_icon_ImageView"
-                app:srcCompat="@drawable/main_icon_3" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-    </LinearLayout>
-
-    <!--行二-->
-    <LinearLayout
-        android:id="@+id/row3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/row2"
-        android:layout_weight="1"
-        android:background="#ffffff"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                style="@style/main_icon_ImageView"
-                app:srcCompat="@drawable/main_icon_4" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-
-        <TextView style="@style/Split_line_vertical" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                style="@style/main_icon_ImageView"
-                app:srcCompat="@drawable/main_icon_5" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-
-        <TextView style="@style/Split_line_vertical" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                style="@style/main_icon_ImageView"
-                app:srcCompat="@drawable/main_icon_6" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-    </LinearLayout>
-
-    <!--行二-->
-    <LinearLayout
-        android:id="@+id/row4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/row3"
-        android:layout_weight="1"
-        android:background="#ffffff"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                style="@style/main_icon_ImageView"
-                app:srcCompat="@drawable/main_icon_7" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-
-        <TextView style="@style/Split_line_vertical" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView style="@style/main_icon_ImageView" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-
-        <TextView style="@style/Split_line_vertical" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView style="@style/main_icon_ImageView" />
-
-            <TextView style="@style/Split_line_horizontal" />
-        </LinearLayout>
-    </LinearLayout>
-    <!--九宫格 end-->
-
+        android:horizontalSpacing="1dp"
+        android:numColumns="3"
+        android:verticalSpacing="1dp">
+    </GridView>
 </RelativeLayout>
